@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EAF1"
+    tools:context=".ReligiousFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="390dp"
+                android:layout_height="210dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/hindu1" />
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView1"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="HINDUISM"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="390dp"
+                android:layout_height="210dp"
+                android:src="@drawable/buddhism"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@id/text1" />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="BUDDHISM"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="390dp"
+                android:layout_height="210dp"
+                android:src="@drawable/christianity1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@id/text2"
+                />
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="CHRISTIANITY"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="390dp"
+                android:layout_height="210dp"
+                android:src="@drawable/jainism1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@id/text3"
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView4"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="JAINISM"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="390dp"
+                android:layout_height="210dp"
+                android:src="@drawable/sufism1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@id/text4"
+                />
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView5"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="SUFISM"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="390dp"
+                android:layout_height="210dp"
+                android:src="@drawable/sikhism1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@id/text5"
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView6"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="SIKHISM"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="390dp"
+                android:layout_height="220dp"
+                android:src="@drawable/islam1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@id/text6"
+                />
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView7"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="ISLAM"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D8E6D8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="408dp"
+            android:layout_height="match_parent"
+            android:background="#6EC2A7"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:fontFamily="serif"
+
+                android:text="VAISHNO DEVI"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="casual"
+                android:text="1-2 DAY \nDuration"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="81dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="casual"
+                android:text="Day 1"
+                android:textSize="19sp"
+
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="casual"
+        android:text="100 Km"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="casual"
+        android:text="2 Hours"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="39dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="148dp"
+
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+
+</RelativeLayout>

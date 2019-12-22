@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic2_explore_black_24dp"
+        android:title="@string/nav_explore" />
+    <item
+        android:id="@+id/nav_list"
+        android:icon="@drawable/ic2_list_black_24dp"
+        android:title="@string/nav_list" />
+    <item
+        android:id="@+id/nav_trip"
+        android:icon="@drawable/ic2_trip_black_24dp"
+        android:title="@string/nav_trip" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic2_account_black_24dp"
+        android:title="@string/nav_account" />
+</menu>
